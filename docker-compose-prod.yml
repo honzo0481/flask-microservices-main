@@ -15,7 +15,7 @@ services:
 
   users-service:
     container_name: users-service
-    build: https://github.com/honzo0481/flask-microservices-users.git#master:project/db
+    build: https://github.com/honzo0481/flask-microservices-users.git
     expose:
       - '5000'
     environment:
